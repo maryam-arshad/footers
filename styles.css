@@ -1,0 +1,266 @@
+*{
+    box-sizing: border-box;
+    margin: 0px auto;
+    font-family: "Poppins", sans-serif;}
+
+.container{
+    background-color: #f6f6f8;
+} 
+.container-wrapper{
+    max-width: 1200px;
+}   
+.padding{
+    padding: 75px 12px;
+}
+.all-flex{
+display: flex;
+flex-wrap: wrap;
+}
+.mid-1{
+    width: 41.66%;
+    display: flex;
+flex-wrap: wrap;
+}
+.mid-2{
+    width: 33.32%;
+    display: flex;
+flex-wrap: wrap;
+}
+.kal{
+    width:60%;
+}
+.img {
+    width: 95px;
+    margin: 0;
+    margin-bottom: 34px;
+    max-width: 220px;
+}
+.img img {
+    width: 100%; 
+}
+.address p{
+    display: flex;
+    color: #878787;
+    margin-bottom: 12px;
+}
+.address p svg{
+  margin: 0;
+}
+.address p span{
+    margin: 0px;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    color: rgb(135, 135, 135);
+}
+.icons{
+    display: flex;
+    margin: 0;
+}
+.icon-1{
+    margin: 5px;
+}
+
+
+
+
+.kal-1{
+    width:40%;
+}
+.kal-1, .kal-2, .kal-3, .kal-4, h3 {
+    font-size: 16px;
+    font-weight: 500;
+    color: rgb(34, 34, 34);
+    line-height: 22px;
+    margin-bottom: 20px;
+    margin-top: 2px;
+    font-family: "Poppins", sans-serif;
+}
+
+.ul ul {
+    padding: 0;
+    margin-top: 32px;
+
+}
+
+.ul li {
+   list-style: none;
+   font-size: 14px;
+   line-height: 30px;
+   font-weight: 400;
+   color: rgb(135, 135, 135);
+}
+.kal-2{
+    width: 50% ;
+}
+.kal-3{
+    width: 50% ;
+}
+.kal-4{
+    width: 25%;
+    
+}
+.kal-4 p{
+    font-size: 14px;
+    line-height: 30px;
+    font-weight: 400;
+    color: rgb(135, 135, 135);
+    margin-bottom: 10px;
+    margin-top: 32px;
+}
+.t4s-list-socials a svg {
+    height: 18px;
+    width: 18px;
+   fill:#878787;
+}
+.sub-input{
+    width: 270px;
+    background-color: #ffffff;
+    height: 50px;
+    border-radius: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 1px solid black;
+    padding-right: 2px;
+    margin: 0;
+
+}
+.sub-input input{
+    width: 155px;
+    height: 45px;
+    border-radius: 48px;
+    /* border: 2px solid black; */
+    border: none;
+
+}
+.sub-input input:focus{
+    outline: none;
+    }
+.sub-btn button{
+    height: 44px;
+    border-radius: 48px;
+    background-color: black;
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    font-weight: 400;
+    width: 111px;
+    line-height: 24px;
+  
+   
+}
+.last-img{
+        width: 245px;
+        margin-top: 20px;
+        text-align: left;
+        margin-left: 0;
+        /* padding-left: 20px; */
+ 
+    }
+    .last-img img{
+        width: 100%;
+  }
+  .sub-clo{
+    width: 250px;
+    margin: 0;
+  }
+  .phone-flex{
+    display: none;
+  }
+
+  @media only screen and (max-width:1024px){
+    .all-flex{
+        display: flex;
+        flex-direction: column;
+    }
+    .mid-1{
+        width: 100%;
+        display: flex;
+        padding-left: 5px;
+     
+    }
+    .kal{
+        width: 50%;
+    }
+    .kal-1{
+        width: 50%;
+    }
+    .mid-2{
+        width: 100%;
+        display: flex;
+        padding-left: 5px;
+     
+    }
+    .kal{
+        width: 50%;
+    }
+    .kal-1{
+        width: 50%;
+    }
+    .kal-4{
+        width: 100%;
+        padding-left: 5px;
+    }
+    .sub-clo {
+        width: 100%;
+        margin: 0;
+    }
+    .sub-clo p {
+        /* width: 250px; */
+        margin-top: 0;
+    }
+    .sub-input{
+        width: 43%;
+    }
+    .sub-btn button {
+        
+        width: 160px;
+    }
+    .sub-btn {
+        margin: 0;
+    }
+    .sub-input input{
+    margin-left: 0;
+    }
+  }
+  @media only screen and (max-width:768px){
+  .phone-flex{
+    display: block;
+  }
+  #kal-0{
+    width:60%;
+  }
+  .come{
+    width:60%;
+    display: none;
+}
+  .all-flex{
+    display: none;
+  }
+  .get{
+    display: flex;
+    flex-wrap: wrap;
+
+  }
+  .head{
+    width: 90%;
+  }
+  .get span{
+    width: 10%;
+    display: flex;
+    justify-content: right;
+
+  }
+  .plus-icon::after{
+    content: "+";
+    font-size: 25px;
+
+  }
+  .minus-icon::after{
+    content: "-";
+    font-size: 25px;
+
+  }
+  }
